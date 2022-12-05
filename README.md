@@ -37,7 +37,7 @@ Figure 2. MPC Result
 
 
 ### CONCLUSIONS
-In this paper, we implement a simple MPC controller for a basic version of ACC. The controller can achieve the required stability and ensure that the distance between the car is minimized to a short time.
+A simple MPC controller for a basic version of ACC is implemented. The controller can achieve the required stability and ensure that the distance between the car is minimized to a short time.
 
 #### REFERENCES
 [1]	G.J.L. Naus, J. Ploeg, M.J.G. Molengraft, van de, W.P.M.H. Heemels, and M. Steinbuch. Design and implementation of parameterized adaptive cruise control: an explicit model predictive control approach. Control Engineering Practice, 18(8):882–892, 2010.
