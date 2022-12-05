@@ -47,6 +47,9 @@ A Model Predictive Controller for a basic version of Adaptive Cruise Control is 
 
 [3] https://de.mathworks.com/help/mpc/ref/adaptivecruisecontrolsystem.html
 
+[4] https://github.com/wuyenlin/adaptive-cruise-control-mpc
+
+
 
 
 
