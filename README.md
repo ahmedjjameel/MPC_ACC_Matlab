@@ -40,9 +40,13 @@ Figure 2. MPC Result
 A Model Predictive Controller for a basic version of Adaptive Cruise Control is implemented. The controller can achieve the required stability and ensure that the distance between the car is minimized to a short time.
 
 #### REFERENCES
-[1]	G.J.L. Naus, J. Ploeg, M.J.G. Molengraft, van de, W.P.M.H. Heemels, and M. Steinbuch. Design and implementation of parameterized adaptive cruise control: an explicit model predictive control approach. Control Engineering Practice, 18(8):882–892, 2010.
 
-[2]	J. Rawlings, D.Q. Mayne, and Moritz Diehl. Model Predictive Control: Theory, Computation, and Design. Nob Hill Publishing, 01 2017.
+[1] G.J.L. Naus, J. Ploeg, M.J.G. Molengraft, van de, W.P.M.H. Heemels, and M. Steinbuch. Design and implementation of parameterized adaptive cruise control: an explicit model predictive control approach. Control Engineering Practice, 18(8):882–892, 2010.
+
+[2] J. Rawlings, D.Q. Mayne, and Moritz Diehl. Model Predictive Control: Theory, Computation, and Design. Nob Hill Publishing, 01 2017.
+
+[3] https://de.mathworks.com/help/mpc/ref/adaptivecruisecontrolsystem.html
+
 
 
 
