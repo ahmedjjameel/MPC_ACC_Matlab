@@ -30,7 +30,8 @@ Initial ego acceleration v ̇_0 is set to 15 m2/s. To simulate the MPC controlle
 ### MPC Output
 As seen in the figure (2), the MPC controller can minimize δ_d. Negative δ_d does not imply that the vehicle crashes into the other, however, it implies that the difference between maintained distance (equal to specified limit of say 4m) and actual distance is zero. v_p maintains a constant velocity of 15 m/s. The δ_v and v ̇_h also converges to zero in a short period of time. A negative δ_v implies that the both the cars are moving towards each other with zero velocity error implying that they travel with the same velocity after some time.
 
-![fig2](https://user-images.githubusercontent.com/81799459/205554396-de7c0e09-b61f-414e-bbef-1b9b37ccd268.jpg)
+![fig2](https://user-images.githubusercontent.com/81799459/205554802-cdbc623f-30ab-49f9-b6ef-85f606f5d67a.jpg)
+
 
 Figure 2. MPC Result
 
