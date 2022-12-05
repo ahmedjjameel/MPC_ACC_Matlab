@@ -39,10 +39,8 @@ In this paper, we implement a simple MPC controller for a basic version of ACC. 
 
 #### REFERENCES
 [1]	G.J.L. Naus, J. Ploeg, M.J.G. Molengraft, van de, W.P.M.H. Heemels, and M. Steinbuch. Design and implementation of parameterized adaptive cruise control: an explicit model predictive control approach. Control Engineering Practice, 18(8):882–892, 2010.
+
 [2]	J. Rawlings, D.Q. Mayne, and Moritz Diehl. Model Predictive Control: Theory, Computation, and Design. Nob Hill Publishing, 01 2017.
-
-
-
 
 
 
