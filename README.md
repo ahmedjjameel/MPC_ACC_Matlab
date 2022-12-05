@@ -12,8 +12,8 @@ The host vehicle and target vehicle are modelled as in Figure 1 with a relative 
 	Acceleration of the ego vehicle v ̇_h, which should also converge to zero.
 A vehicle dynamics model is also considered to design MPC and analyze the controller performance.
 
+![fig1](https://user-images.githubusercontent.com/81799459/205553887-67acac7d-33b6-47de-b9c1-5f5876d2490d.jpg)
 
-![fig2](https://user-images.githubusercontent.com/81799459/205552393-9e3043ee-1926-46e9-87af-eb54493249e8.jpg)
 
 Figure 1. Example of ACC working principle. The ego vehicle, driving with velocity v_h and acceleration a_h, is equipped with ACC, which measures the preceding lead vehicle, with velocity v_p. A radar measures the distance d_r and the relative velocity v_r=v_p-v_h between the vehicles. [1]
 
@@ -30,8 +30,9 @@ Initial ego acceleration v ̇_0 is set to 15 m2/s. To simulate the MPC controlle
 ### MPC Output
 As seen in the figure (2), the MPC controller can minimize δ_d. Negative δ_d does not imply that the vehicle crashes into the other, however, it implies that the difference between maintained distance (equal to specified limit of say 4m) and actual distance is zero. v_p maintains a constant velocity of 15 m/s. The δ_v and v ̇_h also converges to zero in a short period of time. A negative δ_v implies that the both the cars are moving towards each other with zero velocity error implying that they travel with the same velocity after some time.
 
+![fig2](https://user-images.githubusercontent.com/81799459/205554396-de7c0e09-b61f-414e-bbef-1b9b37ccd268.jpg)
 
-![fig2](https://user-images.githubusercontent.com/81799459/205552781-17b50616-6c58-4c94-9959-9d60a6a093b1.jpg)
+Figure 2. MPC Result
 
 
 ### CONCLUSIONS
